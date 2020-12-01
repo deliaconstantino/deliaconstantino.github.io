@@ -1,0 +1,20 @@
+# Site settings
+author: Delia Constantino
+title: A Moment's Recap
+header-img: img/home-bg.png
+email: dconstan92@gmail.com
+copyright_name: Delia Constantino
+description: > # this means to ignore newlines until "baseurl:"
+  Notes on Learning to Code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  deliaconstantino
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
